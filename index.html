@@ -1429,7 +1429,7 @@ function buildFormPdf(JsPDF,d,A){
     sec('8.  VERIFICATION & CLOSE-OUT  /  VERIFIKASI & PENUTUPAN','SEI QC');
     block('Re-inspection result / Hasil re-inspeksi',' ',16);
     checks('Status',[['Closed / Ditutup',false],['Open / Terbuka',false],['Escalated to NCR No. ............',false]]);
-    signs([['QC Inspector SEI',d.by],['Lead QC SEI',d.lead],['Subcontractor',''],['OE / MK','']]);
+    signs([['QC Inspector SEI',d.by],['Lead QC SEI',d.lead],['Subcontractor','']]);
   }else{
     part('PART A — COMPLETED BY SEI QC  /  DIISI QC SEI');
     sec('1.  IDENTIFICATION  /  IDENTIFIKASI');
